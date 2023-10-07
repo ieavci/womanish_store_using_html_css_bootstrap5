@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+/* button */
+.bg-primary {
+    background-color: var(--pink) !important;
+}
+
+.btn:not(.nav-btns button) {
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+}
+
+
+.btn:not(.nav-btns button):hover {
+    background-color: var(--pink);
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 25px;
+}
+
+/* text color */
+.text-primary {
+    color: var(--pink) !important;
+}
+
+
+/* navbar */
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    width: 30px;
+}
+
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover {
+    color: var(--pink) !important;
+}
+
+.nav-item {
+    border-bottom: solid 0.5px rgba(0, 0, 0, 0.05);
+}
+
+/* header */
+
+#header {
+    background: url(../images/banner2.jpg)top/cover no-repeat;
+}
+
+header .container h2 {
+    border-color: #e5345b;
+}
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn {
+    border-color: #fff !important;
+}
+
+.carousel-item .btn:hover {
+    border-color: var(--pink) !important;
+}
+
+/* title */
+
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+/*collection */
+
+.active-filter-btn {
+    background-color: var(--pink) !important;
+    color: #fff !important;
+    border-color: var(--pink) !important;
+}
+
+.active-filter-btn:hover {
+    background-color: #fff !important;
+    color: var(--pink) !important;
+    border-color: var(--pink) !important;
+}
+
+
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+
+}
+
+/* special */
+
+.special-img span {
+    top: 20px;
+    right: 20px;
+}
+
+.special-list .btn {
+    border-color: var(--pink) !important;
+    padding: 8px 20px !important;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+
+}
+
+.special-img img:hover {
+    transform: scale(1.2);
+}
+
+/* offers */
+
+#offers {
+    background: url(../images/offer.jpg) center/cover no-repeat;
+}
+
+
+#offers .row {
+    min-height: 60vh;
+}
+
+.offers-content span {
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+.offers-content h2 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2) !important;
+
+}
+
+
+.offers-content btn {
+    border-color: transparent !important;
+}
+
+/*blog */
+
+#blog .btn {
+    border-color: var(--pink);
+}
+
+/* about */
+
+#about {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* news */
+#news .btn {
+    border-color: var(--pink) !important;
+    background-color: var(--pink)!important;
+    color: #fff;
+}
+#news .btn:hover {
+    
+    background-color: #fff!important;
+    color: rgb(85, 85, 85);
+}
+
+#news {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#news p{
+    max-width: 600px;
+}
+#news .input-group{
+   max-width: 500px;
+}
+#news input:focus{
+    border-color: var(--pink)!important; 
+    box-shadow: 0 0 5px var(--pink)!important;
+}
+#news .form-control{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+/*footer */
+
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+footer p,li,i{
+    color: rgb(168, 168, 168);
+}
+footer a{
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--pink)!important;
+}
+footer .socials i{
+    transition: color 0.3s ease;
+}
+footer .socials i:hover{
+    color: var(--pink)!important;
+}
+
+
+/* media boyutları */
+@media(min-width: 992px) {
+    .nav-item {
+        border-bottom: none;
+    }
+}

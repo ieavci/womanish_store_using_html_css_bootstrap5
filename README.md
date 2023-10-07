@@ -33,6 +33,6 @@ Video : https://www.youtube.com/watch?v=4QQROLjXyyU&t=20s
 
 
 
-<img src="[url1](https://github.com/ieavci/womanish_store_using_html_css_bootstrap5/blob/main/images/ss/anasayfa10.png?raw=true)" alt="Açıklama 1" width="400"/> <img src="[url2](https://github.com/ieavci/womanish_store_using_html_css_bootstrap5/blob/main/images/ss/anasayfa9.png?raw=true)" alt="Açıklama 2" width="400"/>
+<img src="[url1](https://github.com/ieavci/womanish_store_using_html_css_bootstrap5/blob/main/images/ss/anasayfa10.png)" alt="Açıklama 1" width="400"/> <img src="[url2](https://github.com/ieavci/womanish_store_using_html_css_bootstrap5/blob/main/images/ss/anasayfa9.png)" alt="Açıklama 2" width="400"/>
 
   
